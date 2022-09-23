@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"_fts":"text","_ftsx":{"$numberInt":"1"}},"name":"TextIndex","default_language":"english","language_override":"language","weights":{"$**":{"$numberInt":"1"}},"textIndexVersion":{"$numberInt":"3"}}],"uuid":"4d13f427d6194b438d2ab8b501414ecd","collectionName":"tokens"}

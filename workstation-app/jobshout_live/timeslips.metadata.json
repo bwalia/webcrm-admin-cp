@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"task_name":{"$numberInt":"1"},"reported_by":{"$numberInt":"1"},"description":{"$numberInt":"1"}},"name":"task_name_1_reported_by_1_description_1"}],"uuid":"8c16800e46c0408db6d51968d6aa6fc5","collectionName":"timeslips"}

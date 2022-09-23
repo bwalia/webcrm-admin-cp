@@ -1,0 +1,24 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webcrm
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: webcrm
+  template:
+    metadata:
+      labels:
+        app: webcrm
+    spec:
+      containers:
+        - name: webcrm
+          image: localhost:5100/webcrm-admin:latest 
+          ports:
+            - containerPort: 3014
+          env:
+            - name: MONGO_URL
+              value: mongodb://mongo-svc:27017/dev
+          imagePullPolicy: Always
